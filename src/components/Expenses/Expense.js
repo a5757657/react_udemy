@@ -1,7 +1,7 @@
-import "./Expenses.css";
-import ExpenseItem from './ExpenseItem'
+import "./Expense.css";
+import ExpenseItem from './ExpenseItem';
 
-export const Expenses = (props) => {
+const Expenses = (props) => {
   return (
     <div className="expenses ">
         <ExpenseItem
